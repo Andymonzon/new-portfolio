@@ -2387,12 +2387,12 @@ export const Room = (props) => {
         />
         <PerspectiveCamera
           name="Camera"
-          makeDefault={false}
+          makeDefault
           far={1000}
           near={0.1}
           fov={32.269}
-          position={[21.564, 3.382, -17.074]}
-          rotation={[3.093, 0.921, -3.103]}
+          position={[17.664, 3.382, -14.074]}
+          rotation={[3.02, 0.921, -3.04]}
         />
         <mesh
           name="estanteria"

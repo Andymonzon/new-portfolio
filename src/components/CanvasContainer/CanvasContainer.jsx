@@ -12,7 +12,7 @@ export const CanvasContainer = () => {
     <Canvas className="w-full h-full">
       <Room />
       <Environment preset="city" />
-      <CameraControls />
+      {/* <CameraControls /> */}
     </Canvas>
   );
 };
